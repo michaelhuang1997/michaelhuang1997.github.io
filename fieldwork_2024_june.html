@@ -26,10 +26,11 @@
 
     <!-- Local overrides -->
     <style>
+        /* Make sidebar scroll with the page so nothing gets cut off */
         .fixed-posi {
-            max-height: 100vh;   /* keep sidebar within viewport */
-            overflow-y: auto;    /* allow scrolling if content is taller */
+            position: static !important;
         }
+
         .small-text {
             font-size: 20px !important;
             padding-right: 20px;
@@ -98,11 +99,10 @@
                         <p class="text-center mt-2 small text-muted">Focus group discussion on foreign aid – Lahore</p>
                     </div>
                     <div class="col-md-4 mb-3">
-    <img src="assets/2024june3.jpg" class="img-fluid" alt="Fieldwork June 2024"
-         style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-    <p class="text-center mt-2 small text-muted">Discussion leader Prof. Shamaila Athar and me</p>
-</div>
-
+                        <img src="assets/2024june3.jpg" class="img-fluid" alt="Fieldwork June 2024"
+                             style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                        <p class="text-center mt-2 small text-muted">Discussion leader Prof. Shamaila Athar and me</p>
+                    </div>
                 </div>
 
                 <div class="py-4">
@@ -132,3 +132,4 @@
 </body>
 
 </html>
+
